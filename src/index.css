@@ -5,3 +5,7 @@ body {
   padding: 0;
   font-family: Inter, Roboto Flex, Poppins, Manrope;
 }
+
+html {
+  scroll-behavior: smooth;
+}

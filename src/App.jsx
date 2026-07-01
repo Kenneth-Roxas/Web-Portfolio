@@ -1,11 +1,8 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Portfolio from './Web/Portfolio';
-
-
 
 // Page
-import LandingPage from './Landing_Page';
+import Portfolio from './Portfolio';
 
 function App() {
 

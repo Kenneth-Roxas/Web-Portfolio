@@ -38,7 +38,7 @@ export default function Navbar() {
 
     return (
         <>
-            <header className="fixed w-full z-30 backdrop-blur-lg bg-white/30 border-white/10 shadow-gray-500 shadow-md p-2 rounded-b-xs">
+            <header className="fixed w-full z-30 backdrop-blur-lg bg-white/30 border-white/10 shadow-gray-500 shadow-md p-1 rounded-b-xs">
                 <div className="container mx-auto flex justify-between items-center">
                     <div className="text-white text-xl font-bold">
                         <h1 className="bg-sky-700 px-2 py-2 rounded-full text-base font-extrabold">KR</h1>
