@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 export default function Home() {
     return (
         <>
-            <section id="1" className="h-screen md:h-[95vh] max-w-full bg-slate-800">
+            <section id="1" className="relative h-[100dvh] md:h-[95vh] w-full bg-slate-800">
                 <div className="absolute inset-0 pointer-events-none z-10">
-                    <div className="abosulte top-3 left-2 -translate-x-1/2 w-125 h-125 bg-blue-500/20 blur-3xl rounded=full"></div>
-                    <div className="abosulte bottom-2 right-4 translate-x-1/12 w-125 h-125 bg-blue-500/20 blur-3xl rounded=full"></div>
+                    <div className="absolute top-3 left-2 -translate-x-1/2 w-125 h-125 bg-blue-500/20 blur-3xl rounded-full"></div>
+                    <div className="absolute bottom-2 right-4 translate-x-1/12 w-125 h-125 bg-blue-500/20 blur-3xl rounded-full"></div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-0 pt-18 z-50">
                     <motion.div

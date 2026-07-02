@@ -13,9 +13,9 @@ import Projects_Certs from "./Web/Porjects.jsx";
 
 export default function Portfolio() {
     return (
-        <div className="w-full min-h-screen overflow-x-hidden">
+        <div className="w-full min-h-screen overflow-x-hidden overflow-y-hidden">
             <Navbar />
-            <main className="w-full overflow-x-hidden">
+            <main className="w-full overflow-x-hidden overflow-y-hidden">
                 <Home />
                 <About />
                 <Projects_Certs />
