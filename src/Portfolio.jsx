@@ -6,6 +6,7 @@ import Navbar from "./component/NavBar.jsx";
 import Home from "./Web/Home.jsx";
 import About from "./Web/About.jsx";
 import Projects_Certs from "./Web/Porjects.jsx";
+import Contact from "./Web/Contact.jsx";
 
 
 
@@ -19,6 +20,7 @@ export default function Portfolio() {
                 <Home />
                 <About />
                 <Projects_Certs />
+                <Contact />
             </main>
         </div>
     )

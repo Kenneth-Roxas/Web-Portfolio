@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function Home() {
     return (
         <>
-            <section id="1" className="relative h-[100dvh] md:h-[95vh] w-full bg-slate-800">
+            <section id="1" className="relative h-dvh md:h-[95vh] w-full bg-slate-800">
                 <div className="absolute inset-0 pointer-events-none z-10">
                     <div className="absolute top-3 left-2 -translate-x-1/2 w-125 h-125 bg-blue-500/20 blur-3xl rounded-full"></div>
                     <div className="absolute bottom-2 right-4 translate-x-1/12 w-125 h-125 bg-blue-500/20 blur-3xl rounded-full"></div>
@@ -62,9 +62,9 @@ export default function Home() {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8, ease: "easeOut" }}
                             viewport={{ once: true }}
-                            className="mt-4 md:w-100 mx-auto md:mx-0"
+                            className="mt-4 md:w-70 mx-auto md:mx-0"
                         >
-                            {/* Mobile: Row 1 — Contact Me + Download CV */}
+
                             <div className="flex gap-2 md:hidden px-12">
                                 <button className="relative overflow-hidden border border-sky-400 text-sky-400 shadow-sky-400 shadow px-4 py-2 font-semibold rounded-2xl group flex-1">
                                     <span className="absolute inset-0 bg-sky-400 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out" />
@@ -72,31 +72,19 @@ export default function Home() {
                                 </button>
                                 <button className="relative overflow-hidden border border-yellow-400 text-yellow-400 shadow-yellow-400 shadow px-4 py-2 font-semibold rounded-2xl group flex-1">
                                     <span className="absolute inset-0 bg-yellow-400 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out" />
-                                    <span className="relative z-10 group-hover:text-white transition-colors duration-300">Download CV</span>
-                                </button>
-                            </div>
-
-                            {/* Mobile: Row 2 — Resume (centered, half width) */}
-                            <div className="flex mt-2 md:hidden justify-center px-12">
-                                <button className="relative overflow-hidden border border-red-400 text-red-400 shadow-red-400 shadow px-4 py-2 font-semibold rounded-2xl group w-1/2">
-                                    <span className="absolute inset-0 bg-red-400 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out" />
-                                    <span className="relative z-10 group-hover:text-white transition-colors duration-300">Resume</span>
+                                    <span className="relative z-10 group-hover:text-white transition-colors duration-300">CV / Resume</span>
                                 </button>
                             </div>
 
                             {/* Desktop: All 3 in one row */}
-                            <div className="hidden md:flex gap-2 ">
+                            <div className="hidden md:flex gap-2">
                                 <button className="relative overflow-hidden border border-sky-400 text-sky-400 shadow-sky-400 shadow px-4 py-2 font-semibold rounded-2xl group flex-1">
                                     <span className="absolute inset-0 bg-sky-400 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out" />
                                     <span className="relative z-10 group-hover:text-white transition-colors duration-300">Contact Me</span>
                                 </button>
                                 <button className="relative overflow-hidden border border-yellow-400 text-yellow-400 shadow-yellow-400 shadow px-4 py-2 font-semibold rounded-2xl group flex-1">
                                     <span className="absolute inset-0 bg-yellow-400 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out" />
-                                    <span className="relative z-10 group-hover:text-white transition-colors duration-300">Download CV</span>
-                                </button>
-                                <button className="relative overflow-hidden border border-red-400 text-red-400 shadow-red-400 shadow px-4 py-2 font-semibold rounded-2xl group flex-1">
-                                    <span className="absolute inset-0 bg-red-400 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out" />
-                                    <span className="relative z-10 group-hover:text-white transition-colors duration-300">Resume</span>
+                                    <span className="relative z-10 group-hover:text-white transition-colors duration-300">CV / Resume</span>
                                 </button>
                             </div>
                         </motion.div>

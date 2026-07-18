@@ -34,7 +34,7 @@ export default function Projects_Certs() {
             subtitle: "Web Application & Machine Learning",
             description:
                 "Built to support MSWDO, MDRRMO, and PAGASA in disaster preparedness, forecasting evacuee counts using Random Forest Regression.",
-            tech: ["Scikit-Learn", "ReactJS", "Django", "TailwindCSS", "MySQL", "REST APIs"],
+            tech: ["Scikit-Learn", "ReactJS", "Django", "Jupyter Notebook", "TailwindCSS", "MySQL", "REST APIs"],
             pic: "thesis.png",
             border_color: "border-sky-700",
             shadow_color: "shadow-sky-400",
@@ -65,11 +65,20 @@ export default function Projects_Certs() {
             title: "Student Productivity & Behavior Dashboard",
             subtitle: "Data Visualization",
             description: "A interactive dashboard that use 20,000 Students Productivity & Behavior in School, the datasets used is from Kaggle. It contains student spending time in studying and gadgets, student performance, demographic, age, and attendance",
-            tech: ["Tailwind", "Dash", "Plotly"],
+            tech: ["TailwindCSS", "Dash", "Plotly"],
             pic: "1.png",
             border_color: "border-[#FFEED6]",
             shadow_color: "shadow-[#FFEED6]",
             sub_color: "text-[#FFEED6]"
+        },
+        {
+            title: "Federated Learning",
+            subtitle: "Machine Learning",
+            description: "A federated learning system for water potability prediction, using 2 client nodes and 1 central server to collaboratively train a model without sharing raw data.",
+            tech: ["React", "TailwindCSS", "Python", "Jupyter Notebook", "Rest APIs"],
+            border_color: "border-[#558467]",
+            shadow_color: "shadow-[#558467]",
+            sub_color: "text-[#558467]",
         }
     ];
 
