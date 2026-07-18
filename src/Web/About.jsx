@@ -14,14 +14,15 @@ export default function About() {
             border: "border-sky-500/40",
             shadowColor: "rgba(56,189,248,0.25)",
             tagHover: "bg-sky-500/20 text-sky-300",
-            tags: ["Html", "CSS", "JavaScript", "TailwindCSS", "React", "Laravel", "Node.js", "REST APIs", "Django", "Flask"],
+            tags: ["Html", "CSS", "JavaScript", "TailwindCSS", "React", "Laravel", "Node.js", "REST APIs", "Django", "Flask", "Git"],
             description:
                 "I design and build full-stack web applications from the ground up crafting responsive UIs and seamless database integrations that are both functional and polished.",
             highlights: [
                 "Responsive & accessible UI",
                 "RESTful API development",
                 "Database design & optimization",
-                "Authentication & deployment",
+                "Authentication",
+                "Deployment"
             ],
         },
         {
@@ -31,14 +32,14 @@ export default function About() {
             border: "border-violet-500/40",
             shadowColor: "rgba(167,139,250,0.25)",
             tagHover: "bg-violet-500/20 text-violet-300",
-            tags: ["Python", "Pandas", "Power BI", "R"],
+            tags: ["Python Libraries", "Power BI", "R", "Microsoft Excel", "Jupyter Notebook", "Google Colab"],
             description:
                 "I turn raw, messy data into meaningful stories. Through exploratory analysis, statistical methods, and compelling visualizations, I uncover the patterns that drives user to create a better decisions.",
             highlights: [
                 "Exploratory data analysis",
                 "Interactive dashboards",
                 "Statistical modeling",
-                "Data cleaning & pipelines",
+                "Data cleaning",
             ],
         },
         {
