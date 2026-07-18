@@ -1,6 +1,12 @@
 import { motion } from "framer-motion";
 
 export default function Home() {
+
+    const DLresume = props => {
+        const downloadFile = () => {
+            window.location.href = "./Kenneth T. Roxas.pdf"
+        }
+    }
     return (
         <>
             <section id="1" className="relative h-dvh md:h-[95vh] w-full bg-slate-800">
@@ -62,30 +68,30 @@ export default function Home() {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8, ease: "easeOut" }}
                             viewport={{ once: true }}
-                            className="mt-4 md:w-70 mx-auto md:mx-0"
+                            className="mt-4 md:w-65 mx-auto md:mx-0"
                         >
 
-                            <div className="flex gap-2 md:hidden px-12">
-                                <button className="relative overflow-hidden border border-sky-400 text-sky-400 shadow-sky-400 shadow px-4 py-2 font-semibold rounded-2xl group flex-1">
+                            <div className="flex items-center gap-2 md:hidden px-12">
+                                <a href="#4" className="relative overflow-hidden border border-sky-400 text-sky-400 shadow-sky-400 shadow px-4 py-2 font-semibold rounded-2xl group flex-1">
                                     <span className="absolute inset-0 bg-sky-400 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out" />
                                     <span className="relative z-10 group-hover:text-white transition-colors duration-300">Contact Me</span>
-                                </button>
-                                <button className="relative overflow-hidden border border-yellow-400 text-yellow-400 shadow-yellow-400 shadow px-4 py-2 font-semibold rounded-2xl group flex-1">
+                                </a>
+                                <a href="/Kenneth T. Roxas.pdf" className="relative overflow-hidden border border-yellow-400 text-yellow-400 shadow-yellow-400 shadow px-4 py-2 font-semibold rounded-2xl group flex-1">
                                     <span className="absolute inset-0 bg-yellow-400 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out" />
                                     <span className="relative z-10 group-hover:text-white transition-colors duration-300">CV / Resume</span>
-                                </button>
+                                </a>
                             </div>
 
                             {/* Desktop: All 3 in one row */}
                             <div className="hidden md:flex gap-2">
-                                <button className="relative overflow-hidden border border-sky-400 text-sky-400 shadow-sky-400 shadow px-4 py-2 font-semibold rounded-2xl group flex-1">
+                                <a href="#4" className="text-center relative overflow-hidden border border-sky-400 text-sky-400 shadow-sky-400 shadow px-4 py-2 font-semibold rounded-2xl group flex-1">
                                     <span className="absolute inset-0 bg-sky-400 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out" />
                                     <span className="relative z-10 group-hover:text-white transition-colors duration-300">Contact Me</span>
-                                </button>
-                                <button className="relative overflow-hidden border border-yellow-400 text-yellow-400 shadow-yellow-400 shadow px-4 py-2 font-semibold rounded-2xl group flex-1">
+                                </a>
+                                <a href="/Kenneth T. Roxas.pdf" target="_blank" className="text-center relative overflow-hidden border border-yellow-400 text-yellow-400 shadow-yellow-400 shadow px-4 py-2 font-semibold rounded-2xl group flex-1">
                                     <span className="absolute inset-0 bg-yellow-400 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out" />
                                     <span className="relative z-10 group-hover:text-white transition-colors duration-300">CV / Resume</span>
-                                </button>
+                                </a>
                             </div>
                         </motion.div>
                     </div>
