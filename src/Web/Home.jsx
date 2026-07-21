@@ -58,7 +58,7 @@ export default function Home() {
                             viewport={{ once: true }}
                         >
                             <p className="text-slate-300 texr-xs md:text-base mt-2 ml-2 mr-2 md:mr-0 md:ml-0 md:max-w-xl text-center md:text-left">
-                                I'm a Bachelor of Science in Computer Science graduate from Catanduanes State University (CatSu) - Main Campus with a strong passion in Web Development, Data Analytics, and ML/DL Engineering. As tech enthusiast, I enjoy exploring new tech and continuously expanding my knowledge in this field.
+                                I'm a Bachelor of Science in Computer Science graduate from Catanduanes State University (CatSu) - Main Campus with a strong passion in Web Development, Data Analyst, and ML/DL Engineering. As tech enthusiast, I enjoy exploring new tech and continuously expanding my knowledge in this field.
                             </p>
                         </motion.p>
 
