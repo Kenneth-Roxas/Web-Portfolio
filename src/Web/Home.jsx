@@ -40,7 +40,7 @@ export default function Home() {
                         >
                             {/* <h1 className="text-4xl">Hello, I'm </h1> */}
                             <h1 className="text-2xl md:text-4xl text-white font-extrabold">Hello, I'm <span className="text-sky-600">Kenneth T. Roxas</span></h1>
-                            <p className="text-gray-300 text-xs md:text-base p-2 pb-0 md:p-0 font-bold">Full Stack Web Developer · Data Analyst · ML Developer</p>
+                            <p className="text-gray-300 text-xs md:text-base p-2 pb-0 md:p-0 font-bold">Full Stack Web Developer · Data Analyst · ML/DL Developer</p>
                         </motion.div>
                         <motion.div
                             className="w-78 md:w-60 h-0.5 bg-linear-to-r from-indigo-400 to-sky-500 rounded-full mb-4 mx-auto md:mx-0"

@@ -14,7 +14,7 @@ export default function Projects_Certs() {
             subtitle: "E-Commerce Web Application",
             description:
                 "A full-featured online storefront for a local bakeshop, handling product catalogs, orders, and real-time inventory updates.",
-            tech: ["Laravel 11", "Livewire 3", "TailwindCSS", "MySQL"],
+            tech: ["Laravel 11", "Livewire 3", "TailwindCSS", "MySQL", "JavaScript"],
             border_color: "border-[#9D6638]",
             shadow_color: "shadow-[#9D6638]",
             sub_color: "text-[#E4D6A9]"
@@ -24,7 +24,7 @@ export default function Projects_Certs() {
             subtitle: "Web Application",
             description:
                 "Helps Sangguniang Kabataan (SK) officials conduct youth profiling in their barangay with far less manual effort.",
-            tech: ["Laravel 11", "Livewire 3", "MySQL"],
+            tech: ["Laravel 11", "Livewire 3", "MySQL", "TailwindCSS", "JavaScript"],
             border_color: "border-[#618764]",
             shadow_color: "shadow-[#618764]",
             sub_color: "text-[#A1BC98]"
@@ -55,7 +55,7 @@ export default function Projects_Certs() {
             title: "Manila Traffic Incident Dashboard",
             subtitle: "Data Visualization",
             description: "A interactive dashboard that use Metro Manila Traffic Incidents from Kaggle. The dashboad contains multiple graphs that give insight of causes, weather, type of vehicle and accident, where accidents happen, frequency of accident in City.",
-            tech: ["Plotly", "Streamlit"],
+            tech: ["Plotly", "Streamlit", "Python Libraries"],
             pic: "incident.png",
             border_color: "border-cyan-400",
             shadow_color: "shadow-cyan-300",
@@ -75,7 +75,7 @@ export default function Projects_Certs() {
             title: "Federated Learning",
             subtitle: "Machine Learning",
             description: "A federated learning system for water potability prediction, using 2 client nodes and 1 central server to collaboratively train a model without sharing raw data.",
-            tech: ["React", "TailwindCSS", "Python", "Jupyter Notebook", "Rest APIs"],
+            tech: ["React", "TailwindCSS", "Flask", "Jupyter Notebook", "Rest APIs"],
             border_color: "border-[#558467]",
             shadow_color: "shadow-[#558467]",
             sub_color: "text-[#558467]",

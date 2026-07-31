@@ -16,12 +16,13 @@ export default function About() {
             tagHover: "bg-sky-500/20 text-sky-300",
             tags: ["Html", "CSS", "JavaScript", "TailwindCSS", "React", "Laravel", "Node.js", "REST APIs", "Django", "Flask", "Git"],
             description:
-                "I design and build full-stack web applications from the ground up crafting responsive UIs and seamless database integrations that are both functional and polished.",
+                "I design and build full-stack web applications from the ground up crafting responsive UIs, backend logic, and seamless database integrations that are both functional and polished.",
             highlights: [
                 "Responsive & accessible UI",
+                "Backend Logics",
+                "Authentication",
                 "RESTful API development",
                 "Database design & optimization",
-                "Authentication",
                 "Deployment"
             ],
         },
@@ -34,7 +35,7 @@ export default function About() {
             tagHover: "bg-violet-500/20 text-violet-300",
             tags: ["Python Libraries", "Power BI", "R", "Microsoft Excel", "Jupyter Notebook", "Google Colab"],
             description:
-                "I turn raw, messy data into meaningful stories. Through exploratory analysis, statistical methods, and compelling visualizations, I uncover the patterns that drives user to create a better decisions.",
+                "I turn raw, messy data into meaningful stories or actionable insigths. Through exploratory analysis, statistical methods, and creating dashboards, I uncover the patterns that drives user to create a better decisions.",
             highlights: [
                 "Exploratory data analysis",
                 "Interactive dashboards",
@@ -43,21 +44,22 @@ export default function About() {
             ],
         },
         {
-            title: "ML Engineer",
+            title: "ML/DL Engineer",
             icon: <BrainCircuit />,
             accent: "from-emerald-400 to-teal-500",
             border: "border-emerald-500/40",
             shadowColor: "rgba(52,211,153,0.25)",
             tagHover: "bg-emerald-500/20 text-emerald-300",
-            tags: ["scikit-learn", "TensorFlow", "PyTorch", "NLP", "Computer Vision", "Roboflow"],
+            tags: ["scikit-learn", "TensorFlow", "PyTorch", "NLP", "Computer Vision", "Roboflow", "Python Libraries"],
             description:
-                "I build and train machine learning models that enable computers to learn from data such as Numerical, Categorical, and Image Datasets and make intelligent predictions covering the full ML lifecycle from preprocessing to deployment, and integrating it in web application.",
+                "I build and train machine learning and deep learning models that enable computers to learn from data such as numerical, categorical, and image/video datasets and make intelligent predictions, classification, and detection covering the full ML/DL lifecycle from preprocessing or annotating to deployment, and integrating it in web application.",
             highlights: [
                 "Supervised & Unsupervised Learning",
                 "Deep Learning",
                 "Model Training & Evaluation",
                 "Feature Engineering",
                 "ML Model Deployment",
+                
             ],
         },
     ];
@@ -117,7 +119,7 @@ export default function About() {
                             </p>
 
                             {/* Highlights */}
-                            <ul className="space-y-2 mb-6">
+                            <ul className="space-y-2 mb-4 -mt-2">
                                 {role.highlights.map((h) => (
                                     <li key={h} className={`flex items-center gap-2 text-sm transition-colors duration-300 ${isHovered ? "text-slate-200" : "text-slate-400"}`}>
                                         <span className={`w-1.5 h-1.5 rounded-full bg-linear-to-br ${role.accent} shrink-0`} />
